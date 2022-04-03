@@ -1,0 +1,58 @@
+body {
+  font-family: "Copperplate", fantasy;
+  min-height: 400px;
+  background-image: url("https://images.unsplash.com/photo-1621280336935-ed7cae618aac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80.png");
+  background-color: #000000;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 30px;
+  background-color: #a6c9d7;
+  width: 1000px;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.page-title {
+  color: black;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: black;
+}
+
+.realParaEuro {
+  padding: 50px;
+}
+
+.euroParaReal {
+  padding: 50px;
+}
+
+input {
+  margin: 12px;
+  padding: 6px;
+  border: solid 2px;
+  border-radius: 12px;
+}
+
+label {
+  color: black;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #e9f4ff;
+  border: solid 1px;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+}

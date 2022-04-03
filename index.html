@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de euro</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Conversor de euro</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      CONVERSOR DE EURO
+    </h1>
+    <h3 class="page-subtitle">
+      Converta valores de € (euro) para R$ (real) e vice-versa.
+    </h3>
+     <h4 class="page-subtitle">
+      Taxa de câmbio utilizada: 5.14.
+    </h4>
+    <div class="realParaEuro">
+      <label for="real">Insira o valor em R$ (real)</label><br>
+      <input type="number" id="valorEmReal" size="2" /><br>
+      <button type="submit" onclick="ConverterEmEuro()">Converter para € (euro)</button>
+      <h3 id="valorConvertidoEmEuro"></h3>
+    </div>
+    <div class="euroParaReal">
+      <label for="euro">Insira o valor em € (euro)</label><br>
+      <input type="number" id="valorEmEuro" size="2" /><br>
+      <button type="submit" onclick="ConverterEmReal()">Converter para R$ (real)</button>
+      <h3 id="valorConvertidoEmReal"></h3>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
