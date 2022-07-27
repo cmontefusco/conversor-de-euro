@@ -1,5 +1,5 @@
 # Conversor de euro
 
-A Pen created on CodePen.io. Original URL: [https://codepen.io/cmontefusco/pen/BamebXy](https://codepen.io/cmontefusco/pen/BamebXy).
+Euro converter developed as part of Imersão Dev, a web development course ofered by Alura on march of 2022.
 
 
